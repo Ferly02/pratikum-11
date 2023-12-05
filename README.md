@@ -37,7 +37,7 @@ pangkat = lambda x : x**2
 print(f'hasil dari 2 pangkat 2 adalah {pangkat(2)}')
 ```
 ### OUTPUT
-<img src="gambar/ss 1.png">
+<img src="latihan 1/Screenshot2.png">
 
 ## Akar
 ```python
@@ -50,7 +50,7 @@ b = lambda x,y : math.sqrt(x**2 + y**2)
 print(f'hasilnya adalah {b(2,3)}')
 ```
 ### OUTPUT
-<img src="gambar/ss 2.png">
+<img src="latihan 1/Screenshot3.png">
 
 ## Pembagian menggunakan *args
 ```python
@@ -63,7 +63,7 @@ c = lambda *args: sum(args) / len(args)
 print(f'hasilnya adalah: {c(2, 4, 6, 8, 10)}')
 ```
 ### OUTPUT
-<img src="gambar/ss 3.png"><br>
+<img src="latihan 1/Screenshot5.png"><br>
 <h3>Ini karena fungsi lambda c menghitung rata-rata dari angka yang diberikan (2 + 4 + 6 + 8 + 10) / 5 = 30 / 5 = 6.0.</h3>
 
 ## Fungsi set
@@ -78,12 +78,12 @@ d = lambda s: "".join(set(s))
 print(d("hello"))
 ```
 ### OUTPUT
-<img src="gambar/ss 4.png"><br>
+<img src="latihan 1/Screenshot4.png"><br>
 
 ><h3>'set(s)': Mengubah string s menjadi himpunan (set), yang akan menghilangkan duplikat karakter.</h3>
 
 ## OUTPUT
-<img src="gambar/ss 5.png">
+<img src="latihan 1/Screenshot.png">
 
 ## Tugas Praktikum
 *Buat program sederhana dengan mengaplikasikan penggunaan fungsi
@@ -243,9 +243,9 @@ while True:
 ```
 
 ### Hasil Program 
-<img src="gambar/ss 6.png">
+<img src="pratikum 6/Screenshot.png">
 
 ### *Hasil hanya sebagin dari fungsi program*
 
 ## Flowchart
-<img src="flowchart/flowchart ss.png">
+<img src="flowchart/flowchart.png">
